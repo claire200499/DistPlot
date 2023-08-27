@@ -1,0 +1,17 @@
+Package: DistPlot
+Title: Normal vs Student's t density
+Version: 0.0.0.9000
+Authors@R: 
+    person("Claire", "Simon", , "clairesimon99@gmail.com", role = c("aut", "cre"))
+Description: This package provides an easy way to plot both the Normal density 
+    and the Student density in the same graph using `ggplot2` and `Shiny`. 
+    The plot also shows shaded areas under each density corresponding to 
+    a user-specified interval. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    ggplot2 (>= 3.4.0),
+    shiny (>= 1.7.4),
+    stats (>= 4.1.2)
